@@ -7,28 +7,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <link href="styles/style.css" rel="stylesheet">
+        <script async src="scripts/main.js"></script>
         <title>Teste</title>
     </head>
     <body>
         <h1>Testando tudo</h1>
-        <h2>Testando Headers</h2>
-        <p>Testando uma linha</p>
-        <ul>
-            <li>Item um</li>
-            <li>Item dois</li>
+        <h2 style="text-align: center;">Testando Headers</h2>
+        <p class="center">Melhores personagens de <a href="https://killsixbilliondemons.com/comic/wielder-of-names-cover/">Kill Six Billion Demons</a></p>
+        <ul style="text-align: center;">
+            <li><button onclick="showInfo('cio')">Cio</button></li>
+            <li><button onclick="showInfo('white-chain')">White Chain</button></li>
         </ul>
-        <p>Testando imagens</p>
-        <div class="row">
-            <div class="column">
-                <img src="images/cio2.jpg" alt="Ciocie Cioelle">
-            </div>
-            <div class="column">
-                <img src="images/cio.jpg" alt="Ciocie Cioelle, fanfiction writer">
-            </div>
-            <div class="column">
-                <img src="images/cio1.jpg" alt="Ciocie Cioelle, christmas">
-            </div>
+        <div id="personagem-info">
         </div>
-        <p class="center">Melhor personagem de <a href="https://killsixbilliondemons.com/comic/wielder-of-names-cover/">Kill Six Billion Demons</a></p>
     </body>
 </html>
