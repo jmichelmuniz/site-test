@@ -1,0 +1,53 @@
+p {
+    color:red;
+    border: 1px solid black;
+}
+
+html {
+    color:green;
+    font-family: "Playwrite BR", cursive;
+    background-image: url("images/espectro-azul.png");
+    background-size: cover;
+}
+
+body {
+    margin: 0 3pc 3pc;
+    padding: 3pc;
+    background-color: white;
+    border: 1px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  border: 3px solid black;
+  text-shadow: 3px 3px black;
+}
+
+h2 {
+    margin: 0 0 0 3pc;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+}
+
+img {
+    display: block;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+}
+
+.center {
+    text-align: center;
+}
