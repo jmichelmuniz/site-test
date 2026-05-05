@@ -6,7 +6,7 @@ p {
 html {
     color:green;
     font-family: "Playwrite BR", cursive;
-    background-image: url("images/espectro-azul.png");
+    background-image: url("../images/espectro-azul.png");
     background-size: cover;
 }
 
@@ -32,12 +32,19 @@ p,
 li {
   font-size: 16px;
   line-height: 2;
+  margin: 3px;
 }
 
 img {
     display: block;
     max-height: 300px;
     margin: 0 auto;
+}
+
+button {
+    min-width: 150px;
+    min-height: 40px;
+    text-align: center;
 }
 
 .row {
