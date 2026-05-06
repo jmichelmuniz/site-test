@@ -47,6 +47,14 @@ button {
     text-align: center;
 }
 
+button:hover {
+    background-color: magenta;
+}
+
+.btn-personagens.ativo {
+    background-color: purple;
+}
+
 .row {
     display: flex;
 }

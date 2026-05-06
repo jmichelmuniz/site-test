@@ -6,5 +6,13 @@ function showInfo (id) {
     } else {
         document.getElementById("personagem-info").innerHTML = "<p>Erro</p>";
     }
-
 }
+
+const btnPers = document.querySelectorAll('.btn-personagens');
+    
+btnPers.forEach(btn => {
+    btn.addEventListener('click', () => {
+        btnPers.forEach(b => b.classList.remove('ativo'));
+        btn.classList.add('ativo');
+    })
+});
